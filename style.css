@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background:#f5f6fa; margin:0; padding:0; }
+header { background:#1a1a2e; color:white; padding:15px 30px; display:flex; justify-content:space-between; align-items:center; }
+header h1 { margin:0; font-size:22px; }
+header nav a { color:#4ecca3; text-decoration:none; font-weight:bold; }
+main { padding:20px; max-width:900px; margin:auto; }
+h2 { margin-bottom:20px; }
+.video-list { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px; }
+.video-card { background:white; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); overflow:hidden; }
+.video-card video { width:100%; display:block; }
+.video-card p { margin:10px; font-size:14px; color:#333; }
